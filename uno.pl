@@ -23,6 +23,8 @@ fruta_roja(Variable) :- fruta(Variable), es_Rojo(Variable).
 % "luis es padre de luisa"
 padre(luis, luisa).
 padre(luis, pepe).
+padre(luis, juan). %:- !.
+padre(luis, angel).
 padre(angel, angela).
 
 % "X y Y son hermanos"
